@@ -1,4 +1,4 @@
-# kafka-case
+# kafkaAssignment
 
 Custom Kafka Producer and Consumer apps.
 
@@ -78,7 +78,8 @@ Start and keep running the Kafka service. What directory must you be in?
 Open PowerShell as Administrator in the root project folder, start the original consumer app:
 
 ```PowerShell
-java -cp target/kafka-case-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.isl.professorcase.kafka.CustomConsumer
+java -cp .\target\kafkaAssignment-1.0-SNAPSHOT-ja
+r-with-dependencies.jar com.sunil.mundru.CustomConsumer
 ```
 
 ## 4 - Start Producer
@@ -86,7 +87,8 @@ java -cp target/kafka-case-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri
 Open a new PowerShell as Administrator in the root project folder, start the Producer app using topic test:
 
 ```PowerShell
-java -cp target/kafka-case-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nwmissouri.isl.professorcase.kafka.CustomProducer
+java -cp .\target\kafkaAssignment-1.0-SNAPSHOT-ja
+r-with-dependencies.jar com.sunil.mundru.CustomProducer
 ```
 
 ## Test Communications
